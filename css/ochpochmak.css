@@ -417,7 +417,7 @@
     
     .main_nazalo4 h2 {
         font-size: 30px;
-        margin-top: 20px;
+        margin-top: 20px!important;
     }
 
     main .main_foto h1 {
