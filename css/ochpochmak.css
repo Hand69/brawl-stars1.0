@@ -521,8 +521,9 @@
     }
 
     .main_nazalo4 .p p {
-        margin-top: 40px;
+        margin: 20px auto;
         margin-left: 10px;
+        height: 75px;
     }
     
     .main_nazalo4 h2 {
