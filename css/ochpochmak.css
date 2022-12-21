@@ -649,10 +649,12 @@
     }
 
     footer .footer .footer_block .footer_block1 .footer_block_1 .footer_block_1_2 .contact div {
-        margin: 13px 5px !important;
+        margin: 18px 5px !important;
+        margin-top: 18px;
         margin-left: 5px;
         font-size: 13px;
         color: #AFAFAF;
+        margin-top: 10px !important;
     }
 
     footer .footer .footer_block_2 .menu {
