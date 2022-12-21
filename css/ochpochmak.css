@@ -415,6 +415,11 @@
     header .header .menu p {
         font-size: 10px;
     }
+    
+    .main_nazalo4 h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
 
     main .main_foto h1 {
         font-size: 25px;
