@@ -224,7 +224,7 @@ main .main .main_nazalo .main_nazalo2 div img{
     cursor: pointer;
     width: 33px;
     height: 33px;
-    background: url(../img/лева.png) no-repeat;
+    background: url(..img/лева.png) no-repeat;
     margin-top: 3px;
     margin-right: 5px;
 }
