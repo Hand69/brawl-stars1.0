@@ -1,21 +1,21 @@
 @font-face {
     font-family: Montserrat-Regular;
-    src: url(../font/Montserrat-Regular.ttf);
+    src: url(font/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url(../font/Montserrat-Bold.ttf);
+    src: url(font/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: Montserrat-Light;
-    src: url(../font/Montserrat-Light.ttf);
+    src: url(font/Montserrat-Light.ttf);
 }
 
 @font-face {
     font-family: OpenSans-Light;
-    src: url(../font/OpenSans-Light.ttf);
+    src: url(font/OpenSans-Light.ttf);
 }
 
 body{
