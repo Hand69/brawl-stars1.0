@@ -44,7 +44,7 @@ header .header .menu{
 header .header .menu p{
     margin: 0px 25px;
     text-decoration: none;
-    font-family: 'Racing Sans One', cursive;
+    font-family: Montserrat-Bold;
     color: #fff;
     cursor: pointer;
     height: 25px;
@@ -548,7 +548,7 @@ footer .footer .footer_block_2 .menu p{
     font-size: 17px;
     color: #fff;
     text-decoration: none;
-    font-family: 'Racing Sans One', cursive;
+    font-family: Montserrat-Bold;
     cursor: pointer;
 }
 
