@@ -268,22 +268,6 @@ main .main .main_nazalo .main_nazalo2 div img{
 
 /* /// */
 
-.dot1 {
-    display: block;
-    cursor: pointer;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    background: #000;
-}
-
-.dot1.active {
-    cursor: pointer;
-    background: #38CC68;
-    box-shadow: 0px 4px 15px rgba(74, 189, 111, 0.57);
-    transition: all 0.3s;
-}
-
 #prev1{
     width: 50px;
     height: 40px;
