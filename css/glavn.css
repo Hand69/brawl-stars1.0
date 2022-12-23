@@ -239,6 +239,10 @@ main .main .main_nazalo .main_nazalo2 div img{
     margin-left: 12px;
 }
 
+.dot1{
+    display: none;
+}
+
 .slides__container {
     margin-bottom: 79px;
     background: url(../img/instrument-2.png) no-repeat top right -287px;
