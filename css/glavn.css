@@ -272,26 +272,20 @@ main .main .main_nazalo .main_nazalo2 div img{
     transition: all 0.3s;
 }
 
-#prev1 {
-    display: block;
+#prev1{
+    width: 50px;
+    height: 40px;
+    margin: auto 20px;
     cursor: pointer;
-    width: 33px;
-    height: 33px;
-    background: url(../img/лева.png) no-repeat;
-    margin-top: 3px;
-    margin-right: 5px;
 }
 
-#next1 {
-    display: block;
+#next1{
+    width: 50px;
+    height: 40px;
+    margin: auto 20px;
     cursor: pointer;
-    width: 33px;
-    height: 33px;
-    background: url(../img/права.png) no-repeat;
-    margin-top: 3px;
-    margin-left: 12px;
 }
-
+   
 .slider_last {
     display: none;
 }
