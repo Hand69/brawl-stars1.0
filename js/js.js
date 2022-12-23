@@ -91,4 +91,61 @@ buttom4.addEventListener('click', () => {
     scrollto(buttom4_1);
 })
 
+//! slider.2
+const prev1 = document.getElementById('prev1'),
+    next1 = document.getElementById('next1'),
+    slides1 = document.querySelectorAll('.slide1'),
+    dots1 = document.querySelectorAll('.dot1');
+
+let index1 = 0;
+
+const prepareCurrentSlide1 = ind => {
+    activeSlide1(index1);
+    activeDot1(index1);
+}
+
+const activeSlide1 = n => {
+    for (slide1 of slides1) {
+        slide1.classList.remove('active');
+    }
+    slides1[n].classList.add("active");
+}
+
+const activeDot1 = n => {
+    for (dot1 of dots1) {
+        dot1.classList.remove('active');
+    }
+    dots1[n].classList.add('active');
+}
+
+const nextSlide1 = () => {
+    if (index1 == slides1.length - 1) {
+        index1 = 0;
+        prepareCurrentSlide1(index1);
+    } else {
+        index1++;
+        prepareCurrentSlide1(index1);
+    }
+}
+
+const prevSlide1 = () => {
+    if (index1 == 0) {
+        index1 = slides1.length - 1;
+        prepareCurrentSlide1(index1);
+    } else {
+        index1--;
+        prepareCurrentSlide1(index1);
+    }
+}
+
+dots1.forEach((item1, indexDot1) => {
+    item1.addEventListener('click', () => {
+        index1 = indexDot1
+        prepareCurrentSlide1(index1);
+    })
+})
+
+next1.addEventListener('click', nextSlide1);
+prev1.addEventListener('click', prevSlide1);
+
 
