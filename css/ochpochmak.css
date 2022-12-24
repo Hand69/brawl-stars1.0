@@ -248,6 +248,11 @@
     header .header .contact{
         display: none;
     }
+    
+    .button{
+        padding: 15px 20px;
+        font-size: 20px;
+    }
 
     header .header{
         display: block;
@@ -407,6 +412,15 @@
 @media(max-width: 480px){
     header .header .menu p {
         font-size: 10px;
+    }
+    
+    .button{
+        padding: 14px 4px;
+        font-size: 10px;
+    }
+    
+    .bg{
+        margin-top: 130%;
     }
     
     .main_nazalo4 h2 {
