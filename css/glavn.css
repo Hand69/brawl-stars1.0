@@ -614,7 +614,7 @@ footer .footer .footer_block2 h3, footer .footer .footer_block2 div{
 	text-decoration: none;
 	color: #FFF;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.75);
-	background: green;
+	background: #336600;
 	outline: none;
 	border-radius: 15px;
 	border: 1px solid #4c0300;
@@ -641,12 +641,12 @@ footer .footer .footer_block2 h3, footer .footer .footer_block2 div{
 	
 }
 .button:hover {
-	background: #00cc66;
+	background: #669933;
 	text-shadow: 0 1px 2px rgba(0,0,0,0.75), 0 0 40px #FFF;
 	box-shadow:
 		inset 1px 1px 0px rgba(255,255,255,0.25), /* highlight */
-		inset 0 0 6px #00cc66, /* inner glow */
-		inset 0 80px 80px -40px #00cc66, /* gradient */
+		inset 0 0 6px #669933, /* inner glow */
+		inset 0 80px 80px -40px #669933, /* gradient */
 		1px 1px 3px rgba(0,0,0,0.75); /* shadow */
 		
 }
